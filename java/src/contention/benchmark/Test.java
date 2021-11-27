@@ -586,6 +586,7 @@ public class Test {
 		System.out.println("    unsuccessful ops:      \t" + failures + "\t( "
 				+ formatDouble(((double) failures / (double) total) * 100)
 				+ " %)");
+		/*
 		switch(benchType) {
 		case INTSET:
 			s = setBench.size();
@@ -605,6 +606,7 @@ public class Test {
 		}
 		System.out.println("  Final size:              \t" + sortedBench.size());
 		assert s == (Parameters.size+numAdd-numRemove) : "Final size does not reflect the modifications.";
+		*/
 		
 		//System.out.println("  Other size:              \t" + map.size());
 
